@@ -10,4 +10,9 @@
  */
 public class Bishop {
     
+    public Bishop()
+    {
+        super();
+    }
+    
 }
