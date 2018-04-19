@@ -8,4 +8,8 @@ public class Space {
         this.locationID = locationID;
     }
     
+    public void setNewPiece(Piece piece){
+        this.piece = piece;
+    }
+    
 }
