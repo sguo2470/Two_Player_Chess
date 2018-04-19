@@ -8,6 +8,10 @@
  *
  * @author Guo
  */
-public class Queen {
+public class Queen extends Piece{
+
+    public Queen() {
+        super();
+    }
     
 }
