@@ -37,6 +37,11 @@ public class Piece {
     public void setColor(String color) {
         this.color = color;
     }
+
+    @Override
+    public String toString() {
+        return "Piece{" + "id=" + id + ", color=" + color + ", movement=" + movement + '}';
+    }
     //Created in iteration 1
  
 }
