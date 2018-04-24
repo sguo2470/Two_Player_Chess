@@ -5,12 +5,20 @@ public class Grid {
     //drawGrid;
     
     public void drawGrid(){
-        for(int i = 0; i < spacesArray.length; i ++){
-            
+        
+        int spaceCounter = 0;
+        for(int i = 0; i < 8; i ++){
+            for(int j = 0; j < 8; j ++){
+                System.out.print("* ");
+            }
+            System.out.println();
         }
     }
     //movePiece;
     //updateGrid;
     //
-    //Created in iteration 1
+    
+    public void setInitialSpaces(){
+        
+    }
 }

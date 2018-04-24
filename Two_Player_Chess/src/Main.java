@@ -14,6 +14,9 @@ public class Main {
     public static void main(String[] args) {
         King whiteKing = new King("wKing", "White", 1);
         System.out.println(whiteKing.toString());
+        
+        Grid board = new Grid();
+        board.drawGrid();
   
 }
     //Created in iteration 1
