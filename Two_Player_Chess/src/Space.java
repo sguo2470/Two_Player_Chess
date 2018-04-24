@@ -11,5 +11,5 @@ public class Space {
     public void setNewPiece(Piece piece){
         this.piece = piece;
     }
-    
+    //Created in iteration 1
 }

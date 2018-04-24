@@ -13,5 +13,5 @@ public class Queen extends Piece{
     public Queen() {
         super();
     }
-    
+      //Created in iteration 1  
 }

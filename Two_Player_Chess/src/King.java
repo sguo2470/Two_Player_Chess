@@ -13,5 +13,5 @@ public class King extends Piece{
     public King(){
         super();
     }
-    
+        //Created in iteration 1
 }

@@ -14,5 +14,5 @@ public class Bishop {
     {
         super();
     }
-    
+    //Created in iteration 1
 }
