@@ -8,7 +8,7 @@
  *
  * @author Guo
  */
-public class Knight {
+public class Knight extends Piece{
     
     public Knight()
     {

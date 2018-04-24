@@ -8,7 +8,7 @@
  *
  * @author Guo
  */
-public class Pawn {
+public class Pawn extends Piece{
     
     public Pawn()
     {
