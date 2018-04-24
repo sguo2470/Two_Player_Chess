@@ -10,8 +10,8 @@
  */
 public class Queen extends Piece{
 
-    public Queen() {
-        super();
+    public Queen(String id, String color, int movement) {
+        super(id, color, movement);
     }
       //Created in iteration 1  
 }

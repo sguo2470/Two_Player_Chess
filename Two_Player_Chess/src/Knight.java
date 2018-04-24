@@ -10,9 +10,8 @@
  */
 public class Knight extends Piece{
     
-    public Knight()
-    {
-        super();
+    public Knight(String id, String color, int movement){
+        super(id, color, movement);
     }
     //Created in iteration 1  
 }

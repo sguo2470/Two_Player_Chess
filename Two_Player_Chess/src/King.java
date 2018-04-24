@@ -10,8 +10,8 @@
  */
 public class King extends Piece{
     
-    public King(){
-        super();
+    public King(String id, String color, int movement){
+        super(id, color, movement);
     }
         //Created in iteration 1
 }

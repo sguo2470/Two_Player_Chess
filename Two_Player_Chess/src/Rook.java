@@ -10,9 +10,8 @@
  */
 public class Rook extends Piece {
     
-    public Rook()
-    {
-        super();
+    public Rook(String id, String color, int movement){
+        super(id, color, movement);
     }
         //Created in iteration 1
 }

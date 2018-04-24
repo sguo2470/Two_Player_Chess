@@ -8,11 +8,11 @@
  *
  * @author Guo
  */
-public class Bishop {
+public class Bishop extends Piece {
     
-    public Bishop()
+    public Bishop(String id, String color, int movement)
     {
-        super();
+        super(id,color,movement);
     }
     //Created in iteration 1
 }

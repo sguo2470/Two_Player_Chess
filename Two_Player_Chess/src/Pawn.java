@@ -10,9 +10,8 @@
  */
 public class Pawn extends Piece{
     
-    public Pawn()
-    {
-        super();
+    public Pawn(String id, String color, int movement){
+        super(id, color, movement);
     }
    //Created in iteration 1
 }
