@@ -22,9 +22,9 @@ public class Main {
         Space a1 = new Space(null, "A1");
         
         System.out.println(a1.toString());
-        a1.addPiece(whiteKing);
+        a1.setNewPiece(whiteKing);
         System.out.println(a1.toString());
-        a1.addPiece(blackQueen);
+        a1.setNewPiece(blackQueen);
         System.out.println(a1.toString());
         a1.removePiece();
         System.out.println(a1.toString());
