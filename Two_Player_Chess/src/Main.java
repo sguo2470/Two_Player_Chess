@@ -17,7 +17,19 @@ public class Main {
         
         Grid board = new Grid();
         board.drawGrid();
-  
-}
     //Created in iteration 1
+        Queen blackQueen = new Queen("bQueen", "Black", 1);
+        Space a1 = new Space(null, "A1");
+        
+        System.out.println(a1.toString());
+        a1.addPiece(whiteKing);
+        System.out.println(a1.toString());
+        a1.addPiece(blackQueen);
+        System.out.println(a1.toString());
+        a1.removePiece();
+        System.out.println(a1.toString());
+        
+        a1.getLocation();
+        
+    }
 }
