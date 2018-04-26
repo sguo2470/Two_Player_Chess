@@ -8,18 +8,21 @@ public class Space {
         this.locationID = locationID;
     }
     
-    public void setNewPiece(Piece piece){
+    public boolean setNewPiece(Piece piece){
         this.piece = piece;
+        return true;
     }
     //Created in iteration 1
     
-    public void removePiece(){// <---This will remove the piece for movement
+    public boolean removePiece(){// <---This will remove the piece for movement
         this.piece = null;
+        return true;
     }
     
-    public void addPiece(Piece piece){/*<---This will add the piece to the space,
+    public boolean addPiece(Piece piece){/*<---This will add the piece to the space,
         Theoretically, this should be able to replace pieces.*/ 
         this.piece = piece;
+        return true;
     }
      public Piece getPiece(){
         return this.piece;
@@ -29,7 +32,29 @@ public class Space {
         return this.locationID;
     }
 
-
+    public void endTurn(Space space)
+    {
+        boolean whiteTurn = true;
+        
+        if(space.setNewPiece(piece) || space.removePiece())
+        {
+            if(whiteTurn)
+            {
+                
+                System.out.println("It is now Black Pieces turn.");
+                whiteTurn = false;
+              
+            }
+            else
+            {
+                
+                System.out.println("It is now White Pieces turn.");    
+                whiteTurn = true;
+                
+            }
+        }
+    }
+    
     @Override
     public String toString() {
         return "Space{" + "piece=" + piece + ", locationID=" + locationID + '}';
