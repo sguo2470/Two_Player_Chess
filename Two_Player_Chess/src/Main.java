@@ -19,7 +19,7 @@ public class Main {
         board.drawGrid();
     //Created in iteration 1
         Queen blackQueen = new Queen("bQueen", "Black", 1);
-        Space a1 = new Space(null, "A1");
+        Space a1 = new Space(null, 2);
         
         System.out.println(a1.toString());
         a1.setNewPiece(whiteKing);

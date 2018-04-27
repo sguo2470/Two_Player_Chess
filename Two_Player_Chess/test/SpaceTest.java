@@ -44,7 +44,7 @@ public class SpaceTest {
         System.out.println("setNewPiece");
         King wKing = new King("wK", "white", 1);
         Piece piece = wKing;
-        Space instance = new Space(piece, "a1");
+        Space instance = new Space(piece, 1);
         boolean expResult = true;
         boolean result = instance.setNewPiece(piece);
         assertEquals(expResult, result);
@@ -58,7 +58,7 @@ public class SpaceTest {
         King bKing = new King("bK", "black", 1);
         King wKing = new King("wK", "white", 1);
         Piece piece = wKing;
-        Space instance = new Space(piece, "a1");
+        Space instance = new Space(piece, 1);
         boolean expResult = true;
         boolean result = instance.setNewPiece(piece);
         result = false;

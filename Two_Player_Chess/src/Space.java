@@ -1,9 +1,9 @@
 
 public class Space {
     private Piece piece;
-    private String locationID;
+    private int locationID;
 
-    public Space(Piece piece, String locationID) {
+    public Space(Piece piece, int locationID) {
         this.piece = piece;
         this.locationID = locationID;
     }
@@ -28,7 +28,7 @@ public class Space {
         return this.piece;
     }
     
-    public String getLocation(){
+    public int getLocation(){
         return this.locationID;
     }
 
